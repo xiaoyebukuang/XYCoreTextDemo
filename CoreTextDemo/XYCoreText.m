@@ -19,6 +19,7 @@ const CGFloat kPerLineRatio = 1.4;
 //识别@人名
 //NSString *kAtRegularExpression = @"@[^\\s@]+?\\s{1}";
 NSString *kAtRegularExpression = @"@[\u4e00-\u9fa5a-zA-Z0-9_-]{2,30}";
+
 //识别连续的数字
 NSString *kNumberRegularExpression = @"\\d+[^\\d]{1}";
 
